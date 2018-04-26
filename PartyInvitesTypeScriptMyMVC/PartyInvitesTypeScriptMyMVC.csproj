@@ -70,8 +70,8 @@
   <ItemGroup>
     <Content Include="UMLandComments.xps" />
     <None Include="packages.config" />
-    <Content Include="Scripts\6Library\jquery-3.3.1.slim.min.map" />
-    <Content Include="Scripts\6Library\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\90Library\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\90Library\jquery-3.3.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,29 +80,29 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\90Library\bootstrap-theme.css" />
+    <Content Include="Content\90Library\bootstrap-theme.min.css" />
+    <Content Include="Content\90Library\bootstrap.css" />
+    <Content Include="Content\90Library\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
-    <None Include="Scripts\6Library\jquery-3.3.1.intellisense.js" />
+    <Content Include="Content\90Library\bootstrap.min.css.map" />
+    <Content Include="Content\90Library\bootstrap.css.map" />
+    <Content Include="Content\90Library\bootstrap-theme.min.css.map" />
+    <Content Include="Content\90Library\bootstrap-theme.css.map" />
+    <None Include="Scripts\90Library\jquery-3.3.1.intellisense.js" />
     <Content Include="index.html" />
-    <Content Include="Scripts\6Library\bootstrap.js" />
-    <Content Include="Scripts\6Library\bootstrap.min.js" />
-    <Content Include="Scripts\6Library\jquery-3.3.1.js" />
-    <Content Include="Scripts\6Library\jquery-3.3.1.min.js" />
-    <Content Include="Scripts\6Library\jquery-3.3.1.slim.js" />
-    <Content Include="Scripts\6Library\jquery-3.3.1.slim.min.js" />
-    <Content Include="Scripts\6Library\jquery.validate.min.js" />
-    <Content Include="Scripts\6Library\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\90Library\bootstrap.js" />
+    <Content Include="Scripts\90Library\bootstrap.min.js" />
+    <Content Include="Scripts\90Library\jquery-3.3.1.js" />
+    <Content Include="Scripts\90Library\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\90Library\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\90Library\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\90Library\jquery.validate.min.js" />
+    <Content Include="Scripts\90Library\jquery.validate.unobtrusive.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
