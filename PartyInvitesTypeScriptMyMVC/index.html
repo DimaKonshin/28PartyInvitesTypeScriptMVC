@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+
+            <div id="Window1">
+                <div class="col-md-12 text-center">
+                    <h1>
+                        We'll have a party. And you are invite!
+                    </h1>
+                    <button id="Btn1" class="btn btn-primary">GetList</button>
+                    <button id="Btn2" class="btn btn-primary">RSVP</button>
+                </div>
+            </div>
+
+            <div id="Window2">
+                <div class="col-md-12">
+                    <div class="panel panel-success">
+                        <div class="panel-heading text-center">
+                            RSVP Form
+                        </div>
+                        <div class="panel-body">
+
+                            <form id="form1" method="post" onsubmit="return false">
+
+                                <div class="form-horizontal">
+                                    <hr />
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2" for="Name">Name</label>
+                                        <div class="col-md-10">
+                                            <input class="form-control text-box single-line" data-val="true" data-val-required="enter your name" id="Name" name="Name" type="text" value="" />
+                                            <span class="field-validation-valid text-danger" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2" for="Email">Email</label>
+                                        <div class="col-md-10">
+                                            <input class="form-control text-box single-line" data-val="true" data-val-required="enter your email" data-val-regex="enter a valid email" data-val-regex-pattern=".+\@.+\..+" id="Email" name="Email" type="text" value="" />
+                                            <span class="field-validation-valid text-danger" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2" for="Phone">Phone</label>
+                                        <div class="col-md-10">
+                                            <input class="form-control text-box single-line" data-val="true" data-val-required="enter your phone" id="Phone" name="Phone" type="text" value="" />
+                                            <span class="field-validation-valid text-danger" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2" for="WillYouAttend">WillYouAttend</label>
+                                        <div class="col-md-10">
+                                            <select class="form-control list-box tri-state" data-val="true" data-val-required="enter will you attend" id="WillYouAttend" name="WillYouAttend">
+                                                <option selected="selected" value="">Не задано</option>
+                                                <option value="true">Истина</option>
+                                                <option value="false">Ложь</option>
+                                            </select>
+                                            <span class="field-validation-valid text-danger" data-valmsg-for="WillYouAttend" data-valmsg-replace="true"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="text-center">
+                                            <input id="Btn3" type="submit" value="RSVP Create" class="btn btn-success" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Window3">
+                <div class="col-md-12">
+                    <h2 id="text1"></h2>
+                    <h3 id="text2"></h3>
+                </div>
+                <button id="Btn4" class="btn btn-primary">Welcome page</button>
+            </div>
+
+            <h1 id="text3"></h1>
+        </div>
+    </div>
+
+    <script src="Scripts/6Library/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/6Library/bootstrap.min.js"></script>
+    <script src="Scripts/6Library/jquery.validate.min.js"></script>
+    <script src="Scripts/6Library/jquery.validate.unobtrusive.min.js"></script>
+
+    <script src="Scripts/1UserRequest/UserRequest.js"></script>
+    <script src="Scripts/2Controllers/Controller.js"></script>
+    <script src="Scripts/3Models/RSVP.js"></script>
+    <script src="Scripts/4Views/Views.js"></script>
+    <script src="Scripts/5AppStart/Program.js"></script>
+
+    <script>
+        Program.Main();
+    </script>
+
+</body>
+</html>
